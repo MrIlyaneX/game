@@ -3,6 +3,8 @@ import game
 import random
 import InventoryAndCrafts as IAC
 import sys
+import os
+import os.path
 from PyQt5.QtWidgets import QDesktopWidget,QApplication
 from threading import Thread
 import numpy
@@ -17,8 +19,8 @@ a=pygame.display.set_mode((width,height))
 pygame.display.set_caption("Game")
 s=1
 pos = game.mouse_pos()
-
-
+#расположение файла game
+exec_path = os.getcwd()
 
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -43,23 +45,23 @@ character_inventory = []
 character_inventory_weight = 0
 
 #картинки
-backpack_surf = pygame.image.load('C:/Users/HOME/PycharmProjects/game/venv/icons/backpack.jpg')
+backpack_surf = pygame.image.load(os.path.join(exec_path + "\icons",'backpack.jpg'))
 backpack_rect = backpack_surf.get_rect(bottomright=(width-240, height))
-map_surf = pygame.image.load('C:/Users/HOME/PycharmProjects/game/venv/icons/map.jpg')
+map_surf = pygame.image.load(os.path.join(exec_path + "\icons", 'map.jpg'))
 map_rect = map_surf.get_rect(bottomright=(width-120, height))
-besteary_surf = pygame.image.load('C:/Users/HOME/PycharmProjects/game/venv/icons/besteary.jpg')
+besteary_surf = pygame.image.load(os.path.join(exec_path + "\icons", 'besteary.jpg'))
 besteary_rect = besteary_surf.get_rect(bottomright=(width-80, height))
-settings_surf = pygame.image.load('C:/Users/HOME/PycharmProjects/game/venv/icons/settings.jpg')
+settings_surf = pygame.image.load(os.path.join(exec_path + "\icons", 'settings.jpg'))
 settings_rect = settings_surf.get_rect(bottomright=(width, height))
 #железный сет номер 1
-iron_helmet_surf = pygame.image.load('C:/Users/HOME/PycharmProjects/game/venv/icons/iron_helmet.jpg')
+iron_helmet_surf = pygame.image.load(os.path.join(exec_path + "\icons", 'iron_helmet.jpg'))
 #locations
 #trees
-tree1_surf = pygame.image.load('C:/Users/HOME/PycharmProjects/game/venv/icons/tree1.png')
+tree1_surf = pygame.image.load(os.path.join(exec_path + "\icons", 'tree1.png'))
 tree1_rect = tree1_surf.get_rect(bottomright=(500, 500))
-tree2_surf = pygame.image.load('C:/Users/HOME/PycharmProjects/game/venv/icons/tree2.png')
+tree2_surf = pygame.image.load(os.path.join(exec_path + "\icons", 'tree2.png'))
 tree2_rect = tree2_surf.get_rect(bottomright=(500, 500))
-#swamp_surf = pygame.image.load('C:/Users/HOME/PycharmProjects/game/venv/icons/swamp.jpg')
+#swamp_surf = pygame.image.load(os.path.join(exec_path + "\icons", 'swamp.jpg'))
 #swamp_rect = swamp_surf.get_rect(bottomright=(width-200, height+3))
 
 #цвета
@@ -128,6 +130,13 @@ resilience_pve = 1   #устойчивость к пве атакам(протм
 resilience_siege = 1 #устойчивость к осадному урону
 #типо фпс
 clock = pygame.time.Clock()
+
+#координаты персонажа+камеры
+playerX = 0
+playerY = 0
+cameraX = 0
+cameraY = 0
+#загрузка  игрока как картинка(спрайт)
 
 
 

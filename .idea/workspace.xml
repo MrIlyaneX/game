@@ -2,11 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4422ff0-c825-4fcd-9357-c0904a9c1363" name="Default Changelist" comment="updat">
-      <change afterPath="$PROJECT_DIR$/venv/Include/pixelezator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/venv/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Include/GUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Include/GUI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/site/inver+pixel+oo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/icons/backpack.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/include/icons/backpack.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/icons/besteary.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/include/icons/besteary.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/icons/iron_helmet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/include/icons/iron_helmet.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/icons/map.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/include/icons/map.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/icons/old/backpack.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/include/icons/old/backpack.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/icons/old/backpack.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/include/icons/old/backpack.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/icons/old/besteary.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/include/icons/old/besteary.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/icons/old/map.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/include/icons/old/map.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/icons/old/settings.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/include/icons/old/settings.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/icons/old/tree1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/include/icons/old/tree1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/icons/settings.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/include/icons/settings.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/icons/swamp.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/include/icons/swamp.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/icons/tree1.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/include/icons/tree1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/icons/tree2.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/include/icons/tree2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/icons/tree3.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/include/icons/tree3.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/Include/GUI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="254" lean-forward="true" selection-start-line="254" selection-end-line="254" />
+            <state relative-caret-position="168">
+              <caret line="48" column="71" lean-forward="true" selection-start-line="48" selection-start-column="71" selection-end-line="48" selection-end-column="71" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
                 <element signature="e#4690#9494#0" />
@@ -109,22 +122,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Include/site/ds.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/Include/site/sirius.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" selection-start-column="6" selection-end-column="6" />
+            <state relative-caret-position="145">
+              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -150,10 +151,10 @@
         <option value="$PROJECT_DIR$/venv/Include/InventoryAndCrafts.py" />
         <option value="$PROJECT_DIR$/venv/Include/game.py" />
         <option value="$PROJECT_DIR$/venv/Include/site/ds.py" />
-        <option value="$PROJECT_DIR$/venv/Include/site/sirius.py" />
         <option value="$PROJECT_DIR$/venv/Include/MainGameSource.py" />
         <option value="$PROJECT_DIR$/venv/Include/site/inver+pixel+oo.py" />
         <option value="$PROJECT_DIR$/venv/Include/pixelezator.py" />
+        <option value="$PROJECT_DIR$/venv/Include/site/sirius.py" />
         <option value="$PROJECT_DIR$/venv/Include/GUI.py" />
       </list>
     </option>
@@ -217,14 +218,6 @@
               <item name="&lt; Python 3.7 (game) &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="venv" type="462c0819:PsiDirectoryNode" />
               <item name="Include" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="game" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (game) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-              <item name="Include" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -380,17 +373,17 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32936078" />
@@ -535,13 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Include/site/sirius.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Include/inver+pixel+oo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -556,10 +542,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Include/site/sirius.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Include/GUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="254" lean-forward="true" selection-start-line="254" selection-end-line="254" />
+        <state relative-caret-position="168">
+          <caret line="48" column="71" lean-forward="true" selection-start-line="48" selection-start-column="71" selection-end-line="48" selection-end-column="71" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
             <element signature="e#4690#9494#0" />
