@@ -64,6 +64,8 @@ tree2_rect = tree2_surf.get_rect(bottomright=(500, 500))
 #swamp_surf = pygame.image.load(os.path.join(exec_path + "\icons", 'swamp.jpg'))
 #swamp_rect = swamp_surf.get_rect(bottomright=(width-200, height+3))
 
+our_map = pygame.image.load(os.path.join(exec_path + "\icons", 'map_word.jpg'))
+
 #цвета
 WHITE = (255, 255, 255)
 RED = (225, 0, 50)
@@ -132,24 +134,23 @@ resilience_siege = 1 #устойчивость к осадному урону
 clock = pygame.time.Clock()
 
 #координаты персонажа+камеры
-playerX = 0
-playerY = 0
+playerX = 600
+playerY = 600
 cameraX = 0
 cameraY = 0
 #загрузка  игрока как картинка(спрайт)
-
-
+speed = 6
 
 def lobby():
     global a, s, pos
     global inventory_bool, besteary_bool, settings_bool, map_bool, character_bool, top_bool, skill_bool, craftbook_bool
     global mana, strongpower, healpoints, mana1, strongpower1, healpoints1
+    global playerX, playerY
     while run:
-        clock.tick(120)
+        clock.tick(60)
         pos = game.mouse_pos()
         s = pos
         for event in pygame.event.get():
-            keys = pygame.key.get_pressed()
             if event.type == pygame.MOUSEBUTTONDOWN:
                 if width - 320 <= pos[0] <= width - 280 and height - 40 <= pos[1] <= height:
                     if character_bool == True:
@@ -239,10 +240,6 @@ def lobby():
                     skills(2)
                 if event.key == pygame.K_3:
                     skills(3)
-                if keys[pygame.K_q]:
-                    skills(4)
-                if keys[pygame.K_e]:
-                    skills(5)
                 if event.key == pygame.K_x:
                     skills(6)
                 if event.key == pygame.K_c:
@@ -255,21 +252,40 @@ def lobby():
                     skills(10)
                 elif event.key == pygame.K_CAPSLOCK:
                     skills(11)
-            if keys[pygame.K_q]:
-                skills(4)
-            if keys[pygame.K_e]:
-                skills(5)
+        #применяется если клавиша зажата
+        keys = pygame.key.get_pressed()
+        if keys[pygame.K_w]:
+            playerY -= speed
+        if keys[pygame.K_s]:
+            playerY += speed
+        if keys[pygame.K_a]:
+            playerX -= speed
+        if keys[pygame.K_d]:
+            playerX += speed
+        if keys[pygame.K_q]:
+            skills(4)
+        if keys[pygame.K_e]:
+            skills(5)
+
+        #отрисовка
         graf()
 
 
 #снизу отвечает за отрисовку
 def graf():
-    global a, s, pos, run
+    global a
     global inventory_bool, besteary_bool, settings_bool, map_bool, character_bool, top_bool, skill_bool, craftbook_bool
     global mana, strongpower, healpoints, mana1, strongpower1, healpoints1
+    global  personX, personY
     pos = game.mouse_pos()
     s = pos
     pygame.draw.rect(a, WHITE, (0, 0, width, height))
+
+    # для камеры(экрана)
+    cameraX = playerX
+    cameraY = playerY
+    #a.blit(our_map, (0 - cameraX, 0 - cameraY))
+
     tree1_rect = tree1_surf.get_rect(bottomright=(500, 500))
     a.blit(tree1_surf, tree1_rect)
     tree1_rect = tree1_surf.get_rect(bottomright=(1000, 400))
@@ -277,7 +293,12 @@ def graf():
     tree2_rect = tree2_surf.get_rect(bottomright=(700, 600))
     a.blit(tree2_surf, tree2_rect)
 
-    # настройки->характеристики перса
+    #трисовка персонажа(пока что шлема)
+    iron_helmet_rect = iron_helmet_surf.get_rect(bottomright=(playerX,playerY))
+    a.blit(iron_helmet_surf,(iron_helmet_rect))
+    #a.blit(iron_helmet_surf, (playerX - cameraX, playerY - cameraY))
+
+    #настройки->характеристики перса
     if 1 + 1 == 2:
         a.blit(settings_surf, settings_rect)
         pygame.draw.rect(a, BLACK, (width - 80, height - 40, 40, 40))
@@ -358,6 +379,7 @@ def graf():
         else:
             qw = 250 + (250 / 100) * strongpower1 * (-1)
             pygame.draw.rect(a, BROWN, (15, 880, 250 - qw, 15))
+    pygame.display.flip()
     pygame.display.update()
 
 #
@@ -435,12 +457,24 @@ class inventory():
         while item[0] != character_inventory[i][0]:
             i += 1
         character_inventory_weight-=item[1]
-        character_inventory.pop(i)
+        if character_inventory[i][2] == 1:
+            character_inventory.pop(i)
+        else:
+            character_inventory[i][2]-=1
     def __use__(item):
         #в процессе
         r = 0
     def sroll():
         print("вес", character_inventory_weight)
+
+class player():
+    def person(self):
+        self.heal
+        self.healpoints
+        self.strongpower
+        self.speed = 20
+
+
 
 sword = ['sword', 10, 0, 7,0,0,0,0]
 stack = ['stack', 120, 0, 0, 0, 0, 0, 0]

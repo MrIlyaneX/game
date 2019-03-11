@@ -3,23 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a4422ff0-c825-4fcd-9357-c0904a9c1363" name="Default Changelist" comment="updat">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/venv/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Include/GUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Include/GUI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/icons/backpack.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/include/icons/backpack.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/icons/besteary.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/include/icons/besteary.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/icons/iron_helmet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/include/icons/iron_helmet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/icons/map.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/include/icons/map.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/icons/old/backpack.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/include/icons/old/backpack.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/icons/old/backpack.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/include/icons/old/backpack.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/icons/old/besteary.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/include/icons/old/besteary.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/icons/old/map.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/include/icons/old/map.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/icons/old/settings.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/include/icons/old/settings.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/icons/old/tree1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/include/icons/old/tree1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/icons/settings.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/include/icons/settings.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/icons/swamp.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/include/icons/swamp.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/icons/tree1.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/include/icons/tree1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/icons/tree2.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/include/icons/tree2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/icons/tree3.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/include/icons/tree3.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,12 +33,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/Include/GUI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="48" column="71" lean-forward="true" selection-start-line="48" selection-start-column="71" selection-end-line="48" selection-end-column="71" />
+            <state relative-caret-position="158">
+              <caret line="149" column="21" lean-forward="true" selection-start-line="149" selection-start-column="21" selection-end-line="149" selection-end-column="21" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <element signature="e#4690#9494#0" />
-                <element signature="e#10304#10800#0" />
+                <element signature="e#4812#9498#0" />
+                <element signature="e#4791#6821#0" />
+                <element signature="e#4888#5033#0" />
+                <element signature="e#5149#5294#0" />
+                <element signature="e#5410#5543#0" />
+                <element signature="e#5659#5804#0" />
+                <element signature="e#5920#6047#0" />
+                <element signature="e#6162#6304#0" />
+                <element signature="e#6418#6545#0" />
+                <element signature="e#6654#6796#0" />
+                <element signature="e#6931#7058#0" />
+                <element signature="e#7123#7265#0" />
+                <element signature="e#7335#7477#0" />
+                <element signature="e#7542#7687#0" />
+                <element signature="e#7752#7897#0" />
+                <element signature="e#7962#8089#0" />
+                <element signature="e#8154#8287#0" />
+                <element signature="e#8352#8497#0" />
+                <element signature="e#10848#11344#0" />
                 <element signature="e#10890#12446#0" />
                 <element signature="e#12497#12636#0" />
                 <element signature="e#12675#12817#0" />
@@ -69,7 +70,10 @@
                 <element signature="e#14477#14697#0" />
                 <element signature="e#14830#15126#0" />
                 <element signature="e#15150#15597#0" />
-                <element signature="e#15622#16883#0" />
+                <element signature="e#15648#16956#0" />
+                <element signature="e#15741#16506#0" />
+                <element signature="e#16570#16888#0" />
+                <element signature="e#16792#16817#0" />
               </folding>
             </state>
           </provider>
@@ -124,8 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/Include/site/sirius.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="87">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -544,19 +548,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/Include/site/sirius.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="87">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/Include/GUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="48" column="71" lean-forward="true" selection-start-line="48" selection-start-column="71" selection-end-line="48" selection-end-column="71" />
+        <state relative-caret-position="158">
+          <caret line="149" column="21" lean-forward="true" selection-start-line="149" selection-start-column="21" selection-end-line="149" selection-end-column="21" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <element signature="e#4690#9494#0" />
-            <element signature="e#10304#10800#0" />
+            <element signature="e#4812#9498#0" />
+            <element signature="e#4791#6821#0" />
+            <element signature="e#4888#5033#0" />
+            <element signature="e#5149#5294#0" />
+            <element signature="e#5410#5543#0" />
+            <element signature="e#5659#5804#0" />
+            <element signature="e#5920#6047#0" />
+            <element signature="e#6162#6304#0" />
+            <element signature="e#6418#6545#0" />
+            <element signature="e#6654#6796#0" />
+            <element signature="e#6931#7058#0" />
+            <element signature="e#7123#7265#0" />
+            <element signature="e#7335#7477#0" />
+            <element signature="e#7542#7687#0" />
+            <element signature="e#7752#7897#0" />
+            <element signature="e#7962#8089#0" />
+            <element signature="e#8154#8287#0" />
+            <element signature="e#8352#8497#0" />
+            <element signature="e#10848#11344#0" />
             <element signature="e#10890#12446#0" />
             <element signature="e#12497#12636#0" />
             <element signature="e#12675#12817#0" />
@@ -571,7 +592,10 @@
             <element signature="e#14477#14697#0" />
             <element signature="e#14830#15126#0" />
             <element signature="e#15150#15597#0" />
-            <element signature="e#15622#16883#0" />
+            <element signature="e#15648#16956#0" />
+            <element signature="e#15741#16506#0" />
+            <element signature="e#16570#16888#0" />
+            <element signature="e#16792#16817#0" />
           </folding>
         </state>
       </provider>
