@@ -250,9 +250,7 @@ def lobby():
                 skills(4)
             if keys[pygame.K_e]:
                 skills(5)
-        GR = Thread(name="GR", target=graf(), args=(a, 10))
-        GR.start()
-        GR.join()
+        graf()
 
 
 #снизу отвечает за отрисовку
